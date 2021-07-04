@@ -1,0 +1,12 @@
+/com/
+/common/
+/dev.properties
+/log4j.xml
+/pageObjects/
+/pageUIs/
+/reportConfigs/
+/retryConfig/
+/runBankGuruTestcases.xml
+/staging.properties
+/test.properties
+/utilities/
