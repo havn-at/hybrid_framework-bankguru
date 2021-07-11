@@ -3,6 +3,8 @@
   <test name="Run on firefox">
     <classes>
       <class name="com.bankguru.login.Level_01_Register_Login_Repeat"/>
+      <class name="com.bankguru.login.Level_02_Register_Login_BasePage_1"/>
+      
     </classes>
   </test> 
 </suite>
