@@ -10,3 +10,5 @@
 /staging.properties
 /test.properties
 /utilities/
+/runNopCommerce.xml
+/runLiveGuru.xml
