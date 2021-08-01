@@ -7,6 +7,7 @@ import pageUIs.nopcommerce.LoginPageUI;
 
 public class LoginPageObject extends BasePage {
 	private WebDriver driver;
+	PageGeneratorManager pageGenerator;
 	public LoginPageObject(WebDriver driver) {
 		this.driver = driver;
 	}
@@ -22,9 +23,10 @@ public class LoginPageObject extends BasePage {
 	
 	}
 
-	public void clickToLoginButton() {
+	public HomePageObject clickToLoginButton() {
 		waitForElementClickable(driver, LoginPageUI.LOGIN_BUTTON);
 		clickToElement(driver, LoginPageUI.LOGIN_BUTTON);
+		return PageGeneratorManager.getHomePage(driver);
 	}
 
 }

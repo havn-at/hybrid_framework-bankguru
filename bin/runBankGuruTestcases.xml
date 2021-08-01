@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Bank Guru" parallel="false">
+  <test name="Run on firefox">
+    <classes>
+      <class name="com.bankguru.login.Level_01_Register_Login_Repeat"/>
+      <class name="com.bankguru.login.Level_02_Register_Login_BasePage_1"/>
+      
+    </classes>
+  </test> 
+</suite>
